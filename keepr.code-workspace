@@ -1,0 +1,72 @@
+{
+  "folders": [
+    {
+      "name": "client",
+      "path": "client",
+    },
+    {
+      "name": "server",
+      "path": "server",
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+    },
+    {
+      "name": "specs",
+      "path": "specs",
+    },
+    {
+      "name": "scripts",
+      "path": "scripts",
+    },
+  ],
+
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+
+    "eslint.validate": ["javascript", "typescript", "vue"],
+
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/bin": true,
+      "**/obj": true,
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/bin": true,
+      "**/obj": true,
+    },
+
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "editor.inlineSuggest.enabled": true,
+  },
+
+  "extensions": {
+    "recommendations": [
+      "Vue.volar",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "ms-dotnettools.csharp",
+      "ms-dotnettools.csdevkit",
+      "GitHub.copilot",
+      "GitHub.copilot-chat",
+      "eamodio.gitlens",
+      "bradlc.vscode-tailwindcss",
+    ],
+  },
+}
