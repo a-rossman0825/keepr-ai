@@ -8,9 +8,9 @@ client/.vite/
 client/coverage/
 
 # Environment variables
-client/.env
-client/.env.*
-!client/.env.example
+*/.env
+*/.env.*
+!client/src/.env.example
 
 # Logs
 *.log
